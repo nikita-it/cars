@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Press+Start+2P&display=swap');
+
+
+
+
+
+*{
+font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+	color: black;
+}
+
+td{
+	width:250px;
+	height:250px;
+	border:solid 1px silver;
+	text-align:center;
+}
+
+#shapka{
+position:fixed;
+background-color:#009B76;
+width:100%;
+height:45px;
+top:0;
+padding:0 16px;
+margin-left:-10px;
+z-index:100;
+}
+#osnova{
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:60px;
+	background-color:green;
+height:5000px;}
+
+.model-container{
+	height: 220px;
+	width: 1200px;
+	padding: 20px;
+	margin: 50px;
+}
+
+.kartinka-modeli{
+	float: left;
+	width: 400px;
+	
+}
+
+.opisanie-modeli{
+	float: left;
+	margin-left: 50px;
+	width: 700px;
+}
